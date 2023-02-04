@@ -42,14 +42,14 @@ BienLai::BienLai(unsigned int OldE, unsigned int NewE, double Money)
     this->setMoney(Money);
 }
 
-BienLai::BienLai() = default;
+// BienLai::BienLai() = default;
 BienLai::~BienLai() = default;
 
 BienLai::BienLai(unsigned int OldE, unsigned int NewE,KhachHang khach)
 // :khach()
 :mOldE{OldE},mNewE{NewE},KH(khach)
 {
-    
+
 }
 // {
 //     this->setOldE(mOldE);
@@ -60,11 +60,11 @@ BienLai::BienLai(unsigned int OldE, unsigned int NewE,KhachHang khach)
 // }
 
 
-// void BienLai::setKH(KhachHang kh)
-// {
-//     KH = kh;
-// }
-// KhachHang  BienLai::getKH()
-// {
-//     return KH;
-// }
+void BienLai::setKH(KhachHang kh)
+{
+    KH = kh;
+}
+KhachHang  BienLai::getKH()
+{
+    return KH;
+}

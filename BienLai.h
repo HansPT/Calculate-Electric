@@ -30,13 +30,13 @@ public:
 // :mOldE{OldE},mNewE{NewE},KH(khach)
 // {
     
-// }
-//     BienLai();
-//     ~BienLai();
+
+    BienLai();
+    ~BienLai();
 
 
-    // void setKH(KhachHang kh);
-    // KhachHang getKH();
+    void setKH(KhachHang kh);
+    KhachHang getKH();
 
 };
 
